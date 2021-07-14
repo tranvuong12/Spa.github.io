@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Spa Shop </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            padding-top: 30px;
+        }
+
+        nav {
+            box-shadow: 0 5px 30px 0 rgba(0,0,0,.2);
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%; /* Full width */
+            }
+
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 40%;
+            }    
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+
+        .button {
+            background-color: rgb(62, 126, 83); 
+            color: rgb(255, 255, 255); 
+            }
+
+        .button:hover {
+            background-color: rgb(33, 66, 44);
+            color: white;
+            }
+
+        .footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(62, 126, 83);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            bottom: 0; /* Position the navbar at the top of the page */
+            }
+
+        .fa {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 10px 10px;
+            border-radius: 50%;
+            }
+
+        .fa:hover {
+                opacity: 0.7;
+            }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+            }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+            }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+            }
+
+        * {
+            box-sizing: border-box;
+            }
+
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            width: 80%;
+            background: #f1f1f1;
+            }
+
+        form.example button {
+            float: left;
+            width: 47px;
+            height: 47px;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+            }
+
+        form.example button:hover {
+            background: #0b7dda;
+            }
+
+        form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <a class="nav-link" href="Landingpage.html"> 
+            <img src="Image/Logo-01.png" width="80px" >
+        </a>            
+
+        <ul class="navbar-nav ml-auto" style="text-align: center;">
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link" href="About Us.html"> About Us </a>
+            </li>
+
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link" href="Service.html"> Services </a>
+            </li>
+
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link" href="#"> Contact </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <!-- ----------------- Section Line ----------------- -->
+    <section style="background-image: url('Image/Landi.png'); background-size: cover;">
+        <div style="height: 800px; padding-left:200px; padding-top: 200px;">
+            <h1 style="padding-top: 40px;"> Glow Your Face </h1>
+            <h1> With Our Best Service </h1>
+            <br>
+            <p style="font-size: 20px; padding-bottom: 40px;"> We provide beauty and treatment services with best quality, believe us</p> 
+            <button class="button button1" > View more Services </button>  <button class="button button1"> View Discount </button>
+        </div>
+        
+    </section>
+
+
+
+    <!-- ----------------- Section Line ----------------- -->
+    <div class="container" style="padding-top: 80px;">
+        <div class="row">
+            <div class="col">
+                <div style="border: 1px solid #CACACA; box-sizing: border-box; border-radius: 12px; padding-bottom: 20px;">
+                    <div class="col">
+                        <img src="Icon/Spa-01.png" class="center" style="width: 210px; height: auto;">
+                    </div> 
+
+                    <div class="col">
+                        <h5 style="text-align: center;"> Service 1 </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div style="border: 1px solid #CACACA; box-sizing: border-box; border-radius: 12px; padding-bottom: 20px;">
+                    <div class="col">
+                        <img src="Icon/Spa-02.png" class="center"  style="width: 210px; height: auto;">
+                    </div> 
+
+                    <div class="col">
+                        <h5 style="text-align: center;"> Service 2 </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div style="border: 1px solid #CACACA; box-sizing: border-box; border-radius: 12px; padding-bottom: 20px;">
+                    <div class="col">
+                        <img src="Icon/Spa-03.png" class="center"  style="width: 210px; height: auto;">
+                    </div> 
+
+                    <div class="col">
+                        <h5 style="text-align: center;"> Service 3 </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div style="border: 1px solid #CACACA; box-sizing: border-box; border-radius: 12px; padding-bottom: 20px;">
+                    <div class="col">
+                        <img src="Icon/Spa-04.png" class="center"  style="width: 210px; height: auto;">
+                    </div> 
+
+                    <div class="col">
+                        <h5 style="text-align: center;"> Service 4 </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
+        <div class="row">
+                <div class="col">
+                    <h1 style="font-family: 'Monoton';font-size: 50px"> A LUXURY SALON EXPERIENCE IN THE HEART OF THE FINANCIAL DISTRICT NYC 
+                    </h1>
+                </div> 
+
+                <div class="col">
+                    <div class="row" style="padding-bottom: 40px;">
+                        <h3> LOREM IPSUM SALON IS THE PERFECT PLACE TO GET AN EXCEPTIONAL HAIRSTYLE FROM TOP-NOTCH, INTERNATIONALLY TRAINED STYLISTS AND COLORISTS. </h3>
+                    </div>
+
+                    <div class="row">
+                        <p> Situated in Lower Manhattan, our two boutique salons serve Wall Street and the Financial District, as well as Battery Park and the World Trade Center area. We are the most recommended salon for hotels and spas in the Financial District and Battery Park neighborhoods.Our salon provides services to men and women of any hair type and style: edgy or classic, straight or curly, short or long. We believe that hair should be defined by its nature and its shape, and we use the industry's top brand, Keratase to bring out your hair's best. </p>
+                        <br>
+                        <p> Our mission is to provide you with forward-thinking, sophisticated style. Our space, designed by Italian architect Matias Sagaria, is filled with linear balance and injects our inspiration with modernity and purity. </p>
+                    </div>
+
+                    <div class="row" style="padding-top: 20px;">
+                        <button class="button button1" style="width: 100%;"> Read more </button>        
+                    </div>
+
+                    
+                </div>
+        </div>
+    </div>
+
+
+    
+    <!-- ----------------- Footer ----------------- -->
+    <div class="footer">
+        <h3 style="padding-top: 20px;"> 012-123-1234 </h3>
+        <h1> Join Our List </h1>
+
+        <p style="padding-top: 40px;"> Subscribe to our mailing list to receive updates and promotional offers. </p>
+
+        <form class="example" action="/action_page.php" style="margin:auto;max-width:500px; padding-bottom: 40px; padding-top: 40px;">
+            <input type="text" placeholder="Search.." name="search2">
+        </form>
+
+        <a href="https://www.facebook.com/VCCAVIETNAM" class="fa fa-facebook"></a>
+        <a href="https://www.google.com" class="fa fa-google"></a>
+        <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+        
+
+        <p style="padding-top: 20px;"> Tran Quoc Vuong Copyright 2021. All rights reserved.  </p>
+    </div>
+</body>
+</html>
